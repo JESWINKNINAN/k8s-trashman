@@ -1,0 +1,9 @@
+apiVersion: trashman.k8s.com/v1alpha
+kind: PodTrash
+metadata:
+  namespace: default
+  name: test
+spec:
+  collect/trash: True 
+  namespaces: 
+  - default
